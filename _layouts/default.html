@@ -29,14 +29,20 @@
             </section>
           {% endif %}
           
-          This theme has been customized.
-          
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+        
+        <h2>{{ site.data.menu.menuitem_list_title }}</h2>
+          <ul>
+            {% for item in site.data.menu.menuitems %}
+              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+        
         {{ content }}
       </section>
     </div>
