@@ -9,3 +9,5 @@ This is an experiment.
 | Data A2 | Data B2 |
 | Data A3 | Data B3 |
 | Data A4 | Data B4 |
+
+![Example figure](images/figure.png)
