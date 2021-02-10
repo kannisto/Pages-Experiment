@@ -1,0 +1,11 @@
+menuitem_list_title: Navitation menu
+menuitems:
+
+- title: Home
+  url: index.html
+
+- title: Page A
+  url: page_a.html
+
+- title: Page B
+  url: page_b.html
