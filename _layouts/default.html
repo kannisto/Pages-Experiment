@@ -36,12 +36,10 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         
-        <h2>{{ site.data.menu.menuitem_list_title }}</h2>
-          <ul>
-            {% for item in site.data.menu.menuitems %}
-              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
+        <!-- Navigation (not in original theme! -->
+        {% for item in site.data.menu.menuitems %}
+          [ <a href="{{ item.url }}">{{ item.title }}</a> ]
+        {% endfor %}
         
         {{ content }}
       </section>
