@@ -1,13 +1,21 @@
 
 # Github pages experiment
 
-This is an experiment.
+This is how code can be inserted:
 
-| Col A | Col B |
-| --     | -- |
-| Data A1 | Data B1 |
-| Data A2 | Data B2 |
-| Data A3 | Data B3 |
-| Data A4 | Data B4 |
+    {
+        "SimulationState" : "running",
+        "Name" : "Name of the simulation",
+        "Description" : "Longer description about the simulation"
+    }
+
+This thing supports even tables:
+
+| Field | Type | Multiplicity | Explanation |
+| ---- | ---- | ---- | ---- |
+| All fields from [AbstractMessage](./Page-1) |  |  | Fields from the "abstract base class" |
+| SimulationState | String | 1 (REQUIRED) | Simulation state, either: "running" or "stopped" |
+| Name | String | 0..1 (OPTIONAL) | A human friendly name for the simulation. |
+| Description | String | 0..1 (OPTIONAL) | A longer description of the simulation run meant for humans. |
 
 ![Example figure](images/figure.png)
