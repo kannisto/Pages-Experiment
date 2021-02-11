@@ -13,7 +13,7 @@ This thing supports even tables:
 
 | Field | Type | Multiplicity | Explanation |
 | ---- | ---- | ---- | ---- |
-| All fields from [AbstractMessage](./Page-1) |  |  | Fields from the "abstract base class" |
+| All fields from [AbstractMessage](page_a.html) |  |  | Fields from the "abstract base class" |
 | SimulationState | String | 1 (REQUIRED) | Simulation state, either: "running" or "stopped" |
 | Name | String | 0..1 (OPTIONAL) | A human friendly name for the simulation. |
 | Description | String | 0..1 (OPTIONAL) | A longer description of the simulation run meant for humans. |
